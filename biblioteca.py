@@ -1,9 +1,24 @@
-def imprimir(nome):
-    print(f"O nome è: {nome}")
+from Pessoa import*
 
-def imprimir(numeros):
-    for i in range(1, numeros, 3):
-        print(i, end=" ")
+'''pessoa=Pessoa("Michelline",50,26)
+pessoa.comer()
+pessoa.andar()
+pessoa.dormir()
+
+animal=Gato("pretinho","caramelo")
+animal.miar()
+
+animal=Cachorro("bolinha","caramelo")
+animal.late()
+
+animal=Vaca("Lilica","caramelo")
+animal.mugi()
+
+animal=Coelho("Nuvem","caramelo")
+animal.gruindo()'''
 
 
-from biblioteca import imprimir
+
+
+
+
